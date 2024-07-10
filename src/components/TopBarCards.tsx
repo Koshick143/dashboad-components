@@ -5,7 +5,7 @@ import { IoIosTrendingDown } from "react-icons/io";
 import { IoIosTrendingUp } from "react-icons/io";
 import { BsThreeDots } from "react-icons/bs";
 
-export const TopBarCards = () => {
+const TopBarCards = () => {
   return (
    <Card sx={{width:'25%' ,margin:'1%'}}>
     <CardContent sx={{ }}>
@@ -22,3 +22,5 @@ export const TopBarCards = () => {
    </Card>
   )
 }
+
+export default TopBarCards

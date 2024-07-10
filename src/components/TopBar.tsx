@@ -1,14 +1,15 @@
 import { Container } from '@mui/material'
 import React from 'react'
-import { TopBarCards } from './TopBarCards'
+import  TopBarCards  from './TopBarCards'
+import TopBarCardsSkeleton from './TopBarCardsSkeleton'
 
 export const TopBar = () => {
   return (
    <Container sx={{display:'flex' ,width:'80vw'}}>
     <TopBarCards/>
+    <TopBarCardsSkeleton/>
     <TopBarCards/>
-    <TopBarCards/>
-    <TopBarCards/>
+    <TopBarCardsSkeleton/>
    </Container>
   )
 }
