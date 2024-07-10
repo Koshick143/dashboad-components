@@ -3,7 +3,7 @@ import React from 'react'
 import  TopBarCards  from './TopBarCards'
 import TopBarCardsSkeleton from './TopBarCardsSkeleton'
 
-export const TopBar = () => {
+ const TopBar = () => {
   return (
    <Container sx={{display:'flex' ,width:'80vw'}}>
     <TopBarCards/>
@@ -13,3 +13,5 @@ export const TopBar = () => {
    </Container>
   )
 }
+
+export default TopBar
