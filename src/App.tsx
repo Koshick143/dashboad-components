@@ -5,8 +5,11 @@ import  TopBar  from './components/TopBar'
 import RevenueChart from './components/RevenueChart'
 import RevenueChartSkeleton from './components/RevenueChartSkeleton'
 import ProductList from './components/ProductList'
+import ChartCard from './components/ChartCard'
+import GaugeChart from './components/GaugeChart'
 
-import { Box } from '@mui/material'
+import { Box,Typography } from '@mui/material'
+import ChartCardSkeleton from './components/ChartCardSkeleton'
 
 function App() {
 
@@ -19,10 +22,14 @@ function App() {
       <ProductList/>
       </Box>
        <RevenueChartSkeleton/>
-       
 
+       
      </Box>
-   
+      <ChartCard>
+      <Typography variant="body1" color="initial"> Registered User</Typography>
+        <GaugeChart/>
+      </ChartCard>
+      <ChartCardSkeleton/>
     </>
   )
 }
