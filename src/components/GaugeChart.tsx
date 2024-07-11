@@ -21,7 +21,7 @@ import RemoveIcon from '@mui/icons-material/Remove';
     },
   }}
   text={
-     ({ value ,}) => `${value}`
+     ({ valueMax ,}) => `${valueMax}`
      
   }
  

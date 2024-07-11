@@ -10,6 +10,7 @@ import GaugeChart from './components/GaugeChart'
 
 import { Box,Typography } from '@mui/material'
 import ChartCardSkeleton from './components/ChartCardSkeleton'
+import PieChartComponent from './components/PieChartComponent'
 
 function App() {
 
@@ -28,6 +29,10 @@ function App() {
       <ChartCard>
       <Typography variant="body1" color="initial"> Registered User</Typography>
         <GaugeChart/>
+      </ChartCard>
+      <ChartCard>
+      <Typography variant="body1" color="initial"> Sale by platform</Typography>
+         <PieChartComponent/>
       </ChartCard>
       <ChartCardSkeleton/>
     </>
